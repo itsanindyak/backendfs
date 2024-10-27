@@ -16,6 +16,10 @@
   ],
   "author": "Anindya Koley",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsanindyak/backendfs.git"
+  },
   "dependencies": {
     "@inquirer/prompts": "^7.0.0",
     "dotenv": "^16.4.5",
