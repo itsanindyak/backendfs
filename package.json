@@ -1,0 +1,32 @@
+{
+  "name": "backendfs",
+  "version": "1.0.2",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "backendfs": "bin/backendfs.js"
+  },
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "CLI",
+    "backend",
+    "project-setup"
+  ],
+  "author": "Anindya Koley",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "description": "a",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
