@@ -30,10 +30,15 @@ To create your backend project structure, simply run:
 
 Install globally to use `backendfs` as a persistent command:
 
+First
+
 `npm install -g backendfs`
+
+then
+
 `backendfs` 
 
-> **Note**: The command on the npm website (`npm i backendfs`) only installs the package but won’t execute it directly. For direct execution, use `npx backendfs` or install globally as shown above.
+> **Note**: The command (`npm i -g backendfs`) only installs the package in globally but won’t execute it directly. For direct execution, use command `backendfs` .
 
 ### Features
 
