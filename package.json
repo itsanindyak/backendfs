@@ -21,16 +21,10 @@
     "url": "git+https://github.com/itsanindyak/backendfs.git"
   },
   "dependencies": {
-    "@inquirer/prompts": "^7.0.0",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "mongoose": "^8.7.3"
+    "@inquirer/prompts": "^7.0.0"
   },
   "directories": {
     "lib": "lib"
   },
-  "description": "a",
-  "devDependencies": {
-    "nodemon": "^3.1.7"
-  }
+  "description": "A cli tool that easily make folder structure for a express based backend project."
 }
